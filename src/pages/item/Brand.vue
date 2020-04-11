@@ -32,6 +32,8 @@
           <v-btn icon @click="deleteBrand(props.item)">
             <i class="el-icon-delete"/>
           </v-btn>
+
+
         </td>
       </template>
     </v-data-table>
@@ -143,6 +145,7 @@
         // 关闭窗口
         this.show = false;
       }
+
     },
     components:{
         BrandForm
